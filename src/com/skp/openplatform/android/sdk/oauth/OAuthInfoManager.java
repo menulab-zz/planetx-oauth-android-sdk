@@ -57,7 +57,7 @@ public class OAuthInfoManager {
 	public static String code 					= "";		// 서버로부터 받는값
 	
 	public static final String response_type 	= "code";
-	public static final String redirect_uri 	= "about:blank";		// 빈값.
+	public static final String redirect_uri 	= "http://localhost/";		// 빈값.
 	public static String grant_type 	= "authorization_code";
 	
 	public static String error = "";
